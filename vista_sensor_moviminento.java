@@ -9,11 +9,15 @@ public class MotionSensorView extends VBox {
         this.getChildren().add(statusLabel);
     }
 
-    public void updateStatus(boolean motionDetected) {
+    public void menu(boolean motionDetected) {
+        Menu objMenu = new Menu();
+        objSensor movimiento= new movimiento.nextInt();
+        sensor();
+        while (true){
         if (motionDetected) {
-            statusLabel.setText("Estado: ¡Movimiento detectado!");
+            System.out.println("Estado: ¡Movimiento detectado!");
         } else {
-            statusLabel.setText("Estado: Sin detección de movimiento");
+            System.out.println("Estado: Sin detección de movimiento");
         }
     }
 }
