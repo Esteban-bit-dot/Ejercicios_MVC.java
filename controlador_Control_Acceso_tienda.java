@@ -1,14 +1,3 @@
-public class ControlDeAcceso {
-    public static void main(String[] args) {
-        Tienda tienda = new Tienda(LocalTime.of(9, 0), LocalTime.of(18, 0));
-        
-        Usuario cliente = new Usuario(true, false);
-        Usuario empleado = new Usuario(false, true);
-
-        System.out.println("Permitir acceso al cliente: " + tienda.permitirAcceso(cliente));
-        System.out.println("Permitir acceso al empleado: " + tienda.permitirAcceso(empleado));
-    }
-}
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -43,5 +32,16 @@ public class ControladorAcceso {
         Usuario usuario = new Usuario("admin", "1234");
         VistaAcceso vista = new VistaAcceso();
         new ControladorAcceso(usuario, vista);
+    }
+}
+public class ControlDeAcceso {
+    public static void main(String[] args) {
+        Tienda tienda = new Tienda(LocalTime.of(9, 0), LocalTime.of(18, 0));
+        
+        Usuario cliente = new Usuario(true, false);
+        Usuario empleado = new Usuario(false, true);
+
+        System.out.println("Permitir acceso al cliente: " + tienda.permitirAcceso(cliente));
+        System.out.println("Permitir acceso al empleado: " + tienda.permitirAcceso(empleado));
     }
 }
