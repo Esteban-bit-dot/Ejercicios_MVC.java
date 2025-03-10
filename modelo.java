@@ -22,4 +22,13 @@ public class modelo {
 
     public void setCedulaCliente(String Humedad) {
         this.Humedad = Humedad;
+    }
+  public boolean guardar_datos(String datotemperatura, String datohumedad){
+        System.out.print("conectando base de datos...");
+        System.out.print(objtemperatura);
+        System.out.print(objhumedad);
+        boolean datoGuardado = true;
+        return datoGuardado;
+                
+    }
 
