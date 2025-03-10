@@ -12,3 +12,22 @@ public class LightController {
         view.displayLightState(model.isLightOn()); // Actualiza la vista
     }
 }
+    import java.util.Scanner;
+
+public class MotionLightApp {
+    public static void main(String[] args) {
+        LightModel model = new LightModel();
+        LightView view = new LightView();
+        LightController controller = new LightController(model, view);
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Simulación de sensor de movimiento. Ingresa '1' si hay movimiento, '0' si no lo hay (Ctrl+C para salir):");
+        while (true) {
+            int motion = scanner.nextInt();
+            boolean motionDetected = motion == 1;
+            controller.updateLightState(motionDetected);
+        }
+    }
+ }
+
