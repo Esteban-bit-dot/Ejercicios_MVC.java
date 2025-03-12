@@ -13,7 +13,7 @@ public class modelo {
     }
 
     public void setTemperatura(String Temperatura) {
-        this.Temperatura = Temperatura;
+        this.Temperatura = Temperatura();
     }
 
     public String getHumedad() {
@@ -21,7 +21,7 @@ public class modelo {
     }
 
     public void setCedulaCliente(String Humedad) {
-        this.Humedad = Humedad;
+        this.Humedad = Humedad();
     }
   public boolean guardar_datos(String datotemperatura, String datohumedad){
         System.out.print("conectando base de datos...");
