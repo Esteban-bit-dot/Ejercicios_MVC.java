@@ -1,11 +1,15 @@
 import java.util.Scanner;
-
+import java.util.ArrayList;
 public class vista {
- controlador datocontrolador = new controlador();
- Scanner scanner = new Scanner(System.in);
-
+  private list<temperatura> temperaturas;
+ 
+ public controlador(){
+   controlador datocontrolador = new controlador();
+   Scanner scanner = new Scanner(System.in);
+  
    System.out.println("Bienvenido al sistema de control de temperatura.");
     boolean ejecutando = true;
+    temperatura = new Arraylist<>[];
    while (ejecutando) {
             System.out.println("\nOpciones:");
             System.out.println("1. Mostrar temperatura");
@@ -33,7 +37,5 @@ public class vista {
             }
         }
         scanner.close();
-}
-
-
-} 
+       }
+     }
