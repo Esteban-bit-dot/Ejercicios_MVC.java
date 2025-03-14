@@ -4,7 +4,6 @@ public class VistaControlLuces{
 public static void prenderluces(){
         Scanner luceScanner = new Scanner(System.in);
         noche objnoche = new noche();
-       
         objCasa Sensor = new luces.nextInt();
         objprenderluces.setnocheControl_luces(datonoche);
         if (prenderluces=noche){
