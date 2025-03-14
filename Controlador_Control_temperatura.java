@@ -1,4 +1,5 @@
 public class Controlador {
+     private List<Numero> numeros;
     private modelo model;
     private vista view;
 
@@ -8,5 +9,6 @@ public class Controlador {
   }
   public void ejecutartemperatura(number){
       String resutado = model.getTemperatura(number);
-    view.displayTemperatura(resultado);
+      Numeros = new ArrayList<>();
+     view.displayTemperatura(resultado);
 }
