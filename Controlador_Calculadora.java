@@ -1,10 +1,12 @@
-
+inport java.util.Arraylist;
  public class controlador {
       private Calculadora objCalculadora;
+   private List<Numeros> numeros;
     private Vista objVista;
     
     public Controlador(){
       this.objCalculadora = new  Calculadora();
+     numeros = new ArrayList<>();
       this.objVista = new Vista();    
     }
  switch (operacion) {
