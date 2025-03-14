@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class Vista{
  private lista<temperatura> temperaturas;
  private lista<Humedad> Humedades;
+ 
 public  static void Temperatura (){
         Scanner Temperatura = new Scanner(System.in);
        temperaturas = new Arraylist<>[];
