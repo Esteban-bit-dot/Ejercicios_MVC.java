@@ -1,4 +1,7 @@
- public  static void Temperatura (){
+import java.util.Scanner;
+public class Vista{
+ 
+public  static void Temperatura (){
         Scanner Temperatura = new Scanner(System.in);
         Objtemp.temperatura ="Aire";
         int temp;
