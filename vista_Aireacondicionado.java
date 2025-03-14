@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.Arraylist;
+
 public class Vista{
  private lista<temperatura> temperaturas;
  private lista<Humedad> Humedades;
