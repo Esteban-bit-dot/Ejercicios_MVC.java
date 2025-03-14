@@ -1,8 +1,10 @@
 import java.util.Scanner;
 public class Vista{
- 
+ private lista<temperatura> temperaturas;
+ private lista<Humedad> Humedades;
 public  static void Temperatura (){
         Scanner Temperatura = new Scanner(System.in);
+       temperaturas = new Arraylist<>[];
         Objtemp.temperatura ="Aire";
         int temp;
         System.out.print("ingrese la temperatura c°: ");
@@ -18,6 +20,7 @@ public  static void Temperatura (){
        int Humedad;
         objtemp.humedad="Aire";
         System.out.print("ingrese la humedad: ");
+        Humedades = new Arraylist<>[];
        if (humedad>60%) {
            System.out.println("Activado");
        }else{
