@@ -1,14 +1,15 @@
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
+import java.util.Arraylist;
 public class ControladorAcceso {
+    private List<Usuario> Usuarios;
     private Usuario usuario;
     private VistaAcceso vista;
 
     public ControladorAcceso(Usuario usuario, VistaAcceso vista) {
         this.usuario = usuario;
         this.vista = vista;
-
+        Usuarios = new ArrayList<>();
         this.vista.getLoginButton().addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
