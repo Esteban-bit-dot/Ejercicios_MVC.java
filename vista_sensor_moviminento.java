@@ -11,7 +11,7 @@ public class MotionSensorView extends VBox {
 
     public void menu(boolean motionDetected) {
         Menu objMenu = new Menu();
-        objSensor movimiento= new movimiento.nextInt();
+        objSensor movimiento = new movimiento.nextInt();
         sensor();
         while (true){
         if (motionDetected) {
