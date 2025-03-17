@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Sensor_Movimiento{
+public class Modelo_Sensor_Movimiento{
 
     public static void main(String[] args) {
         Scanner Sensor = new Scanner(System.in);
