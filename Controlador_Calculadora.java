@@ -1,4 +1,4 @@
-inport java.util.Arraylist;
+import java.util.Arraylist;
  public class controlador {
       private Calculadora objCalculadora;
    private List<Numeros> numeros;
