@@ -1,5 +1,5 @@
 public class vista {
-  public class calculadora {
+   public class calculadora {
 while (continuar) {
             System.out.println("Ingrese el primer número: ");
             double num1 = Tomardatos.nextDouble();
@@ -30,5 +30,6 @@ while (continuar) {
         return num1 / num2;
     }
 }
-}
   }
+}
+ 
