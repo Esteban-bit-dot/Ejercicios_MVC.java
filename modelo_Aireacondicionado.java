@@ -1,6 +1,6 @@
 public class modelo {
     private String Temperatura;
-    private String Humedad ;
+    private String Humedad;
  
     public modelo(){
        //crear los atributos
