@@ -2,10 +2,12 @@
 public class Usuario {
     private String nombre;
     private String email;
+    private int contraseña;
 
-    public Usuario(String nombre, String email) {
+    public Usuario(String nombre, String email, int contraseña) {
         this.nombre = nombre;
         this.email = email;
+        this.contraseña = contraseña;
     }
 
     public String getNombre() {
@@ -14,6 +16,10 @@ public class Usuario {
 
     public String getEmail() {
         return email;
+    }
+
+    public int getcontraseña(){
+        return contraseña
     }
 }
 
