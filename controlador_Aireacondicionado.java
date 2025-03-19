@@ -1,13 +1,13 @@
 public class Controlador {
     //crear atributos
-    private Temperatura objTeperatura;
+    private Temperatura objTemperatura;
     private Vista objVista;
     
     public Controlador(){
-      this.objTemperatura = new Teperatura();
+      this.objTemperatura = new Temperatura();
       this.objVista = new Vista();    
     }
-    public Aire_acondicionado_controlador(String datoaire_acondicionado){
+    public Aire_acondicionado_controlador(String datoAire_acondicionado){
         this.Aire_acondicionado = new Aire_acondicionado;
-        this.objsensor = new sensor.nextInt();
+        this.objSensor = new Sensor.nextInt();
     }
