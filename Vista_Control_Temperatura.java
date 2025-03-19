@@ -12,7 +12,7 @@ public class vista {
    while (ejecutando) {
             System.out.println("\nOpciones:");
             System.out.println("1. Mostrar temperatura");
-            System.out.println("2.  registrar temperatura(c°)");
+            System.out.println("2. Registrar temperatura(c°)");
             System.out.println("3. Salir");
             System.out.print("Elige una opción: ");
             int opcion = scanner.nextInt();
