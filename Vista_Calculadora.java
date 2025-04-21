@@ -1,5 +1,10 @@
+import java.util.Arraylist;
+
 public class vista {
-   public class calculadora {
+   private List<Numeros> numeros;
+   
+   public class calculadora() {
+      
 while (continuar) {
             System.out.println("Ingrese el primer número: ");
             double num1 = Tomardatos.nextDouble();
@@ -9,6 +14,7 @@ while (continuar) {
             char operacion = Tomardatos.next().charAt(0);
             double resultado = 0;
             boolean operacionValida = true;
+            numeros = new ArrayList<>();
 }
   public class Calcular_Oparaciones {
     public double sumar(double num1, double num2) {
