@@ -1,13 +1,15 @@
+import java.util.Arraylist;
 public class modelo {
     private int num1;
-    private int num2 ;
+    private int num2;
+    private List<Numeros> numeros;
  
     public modelo(){
-       //crear los atributos
        this.num1="";
        this.num2="";
-       
+       numeros = new ArrayList<>();
     }
+    
    public int getnum1() {
         return num1;
     }
