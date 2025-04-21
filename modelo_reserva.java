@@ -1,13 +1,14 @@
-// Clase Usuario
+import java.util.Arraylist;
 public class Usuario {
     private String nombre;
     private String email;
     private int contraseña;
-
+    private List<datos> datos;
     public Usuario(String nombre, String email, int contraseña) {
         this.nombre = nombre;
         this.email = email;
         this.contraseña = contraseña;
+        datos = new ArrayList<>();
     }
 
     public String getNombre() {
