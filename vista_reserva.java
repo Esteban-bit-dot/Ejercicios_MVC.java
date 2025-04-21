@@ -1,9 +1,13 @@
 import java.util.Scanner;
+import java.util.Arraylist;
 
 public class CineView {
+    private List<Numeros> numeros;
+    
     public static void main(String[] args) {
         CineController cineController = new CineController(10);
         Scanner scanner = new Scanner(System.in);
+        numeros = new ArrayList<>()
 
         System.out.println("Bienvenido al sistema de reserva de asientos de cine.");
         boolean ejecutando = true;
