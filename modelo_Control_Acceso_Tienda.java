@@ -1,8 +1,11 @@
+import java.util.Arraylist;
 public class Usuario {
     private String username;
     private String password;
+    private list<Usuario> Usuario;
 
     public Usuario(String username, String password) {
+        Uuario = new Arraylist<>();
         this.username = username;
         this.password = password;
     }
