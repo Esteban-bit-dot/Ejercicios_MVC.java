@@ -1,6 +1,8 @@
+import java.util.Arraylist;
 public class Controlador {
-    //crear atributos
+   
     private Temperatura objTemperatura;
+    private List<Numeros> numeros;
     private Vista objVista;
     
     public Controlador(){
