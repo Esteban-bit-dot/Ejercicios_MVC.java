@@ -1,10 +1,15 @@
 import java.util.Scanner;
+import java.util.Arraylist;
+
 public class VistaControlLuces{
+   private List<luces> luces;
     
 public static void prenderluces(){
         Scanner luceScanner = new Scanner(System.in);
         noche objnoche = new noche();
         objCasa Sensor = new luces.nextInt();
+        luces = new ArrayList<>();
+    
         objprenderluces.setnocheControl_luces(datonoche);
         if (prenderluces=noche){
             boolean = true;
