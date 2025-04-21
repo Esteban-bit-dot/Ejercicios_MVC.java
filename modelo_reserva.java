@@ -4,6 +4,7 @@ public class Usuario {
     private String email;
     private int contraseña;
     private List<datos> datos;
+    
     public Usuario(String nombre, String email, int contraseña) {
         this.nombre = nombre;
         this.email = email;
