@@ -1,12 +1,16 @@
 import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
+import java.util.Arraylist;
 
 public class MotionSensorView extends VBox {
     private Label statusLabel;
+   private List<movimientos> movimientos;
+
 
     public MotionSensorView() {
         statusLabel = new Label("Estado: Sin detección de movimiento");
         this.getChildren().add(statusLabel);
+        movimientos = new ArrayList<>();
     }
 
     public void menu(boolean motionDetected) {
