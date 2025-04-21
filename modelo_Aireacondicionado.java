@@ -1,11 +1,13 @@
+import java.util.Arraylist;
 public class modelo {
     private String Temperatura;
     private String Humedad;
- 
+    private list<Numeros> numeros;
     public modelo(){
        //crear los atributos
        this.Temperatura="";
        this.Humedad="";
+       numeros = new ArrayList<>();
        
     }
    public String getTemperatura() {
