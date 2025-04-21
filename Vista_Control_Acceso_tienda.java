@@ -1,41 +1,26 @@
-import javax.swing.*;
+import java.util.Arraylist;
 
 public class VistaAcceso {
-    private JFrame frame;
-    private JTextField usernameField;
-    private JPasswordField passwordField;
-    private JButton loginButton;
+    private List<usuario> usuario;
 
     public VistaAcceso() {
-        frame = new JFrame("Control de Acceso - Tienda");
-        usernameField = new JTextField(15);
-        passwordField = new JPasswordField(15);
-        loginButton = new JButton("Iniciar Sesión");
-
-        JPanel panel = new JPanel();
-        panel.add(new JLabel("Usuario:"));
-        panel.add(usernameField);
-        panel.add(new JLabel("Contraseña:"));
-        panel.add(passwordField);
-        panel.add(loginButton);
-
-        frame.add(panel);
-        frame.setSize(300, 150);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setVisible(true);
+        while (continuar) {
+            System.out.println("Ingrese el username: ");
+            string username = Tomardatos.nextint();
+            System.out.println("Ingrese la password: ");
+            int password = Tomardatos.nextint();
+           usuario = new ArrayList<>();
+        }
     }
 
     public String getUsername() {
-        return usernameField.getText();
+        return username.getText();
     }
 
     public char[] getPassword() {
-        return passwordField.getPassword();
+        return password.getPassword();
     }
 
-    public JButton getLoginButton() {
-        return loginButton;
-    }
 }
 
 public class Tienda {
